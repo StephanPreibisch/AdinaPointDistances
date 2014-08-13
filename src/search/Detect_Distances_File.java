@@ -33,7 +33,7 @@ public class Detect_Distances_File implements PlugIn
 		gd.addFileField( "Outputfile (mask to points)", outputfileMTP, 50 );
 		
 		gd.showDialog();
-		
+
 		if ( gd.wasCanceled() )
 			return;
 		
